@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ include file="/common/constance.jsp" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -22,20 +23,20 @@
 			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">JOIN</a></div>
 			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">MYPAGE</a></div>
 			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">출석체크</a></div>
-			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">고객센터</a></div>
+			<div class="col-md-1"><a href="<%=root%>/help/help.jsp" style="color:black;text-decoration:none;">고객센터</a></div>
 		</div>
 		<div class="row">
 		<br>
 			<div class="col-md-1"></div>
-			<div class="col-md-2"><h2><a href="#" style="color:black;text-decoration:none;">이옷어때?</a></h2></div>
+			<div class="col-md-2"><h2><a href="<%=root%>/index.jsp" style="color:black;text-decoration:none;">이옷어때?</a></h2></div>
 		</div>
 <!-- 		2번째 메뉴 -->
 		<div class="row">
 		<br>
 			<div class="col-md-1"></div>
-			<div class="col-md-1"><h4><a href="#" style="color:black;text-decoration:none;">SHOP</a></h4></div>
+			<div class="col-md-1"><h4><a href="<%=root%>/shop/shop.jsp" style="color:black;text-decoration:none;">SHOP</a></h4></div>
 			<div class="col-md-1"><h4><a href="#" style="color:black;text-decoration:none;">ITEM</a></h4></div>
-			<div class="col-md-1"><h4><a href="#" style="color:black;text-decoration:none;">LOOK</a></h4></div>
+			<div class="col-md-1"><h4><a href="<%=root%>/product/recommend.jsp" style="color:black;text-decoration:none;">LOOK</a></h4></div>
 <!-- 			드롭다운 메뉴 -->
 			<div class="col-md-1 dropdown">
 			<a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:black;text-decoration:none"><h4>MYPAGE</h4></a>

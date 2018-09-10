@@ -65,27 +65,52 @@
 	</div>
 	</div>
 	<div id="productdetail"></div>
-	<div class="container-fluid" style="margin-top: 180px">상품상세정보
+	<div class="container-fluid" style="margin-top: 180px">
+	<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-1">상품상세정보</div>
+	</div>
+	
 	
 	</div>
 	<div id="size"></div>
-	<div class="container-fluid" style="margin-top: 180px">사이즈정보
+	<div class="container-fluid" style="margin-top: 180px">
+	<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-1">사이즈정보</div>
+	</div>
 	
 	</div>
 	<div id="codi"></div>
-	<div class="container-fluid" style="margin-top: 180px">코디아이템
+	<div class="container-fluid" style="margin-top: 180px">
+	<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-1">코디아이템</div>
+	</div>
 	
 	</div>
 	<div id="after"></div>
-	<div class="container-fluid" style="margin-top: 180px">상품후기
+	<div class="container-fluid" style="margin-top: 180px">
+	<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-1">상품후기</div>
+	</div>
 	
 	</div>
 	<div id="question"></div>
-	<div class="container-fluid" style="margin-top: 180px">상품문의
+	<div class="container-fluid" style="margin-top: 180px">
+	<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-1">상품문의</div>
+	</div>
 	
 	</div>
 	<div id="send"></div>
-	<div class="container-fluid" style="margin-top: 180px">배송정보
+	<div class="container-fluid" style="margin-top: 180px">
+	<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-1">배송정보</div>
+	</div>
 	
 	</div>
 	
