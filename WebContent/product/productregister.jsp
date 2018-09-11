@@ -4,13 +4,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="../css/style.css" rel="stylesheet">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<form action="/action_page.php">
+<form action="">
 
   <div class="container-fluid">
   <div class="col-md-12">
@@ -18,27 +15,22 @@
     <hr>
 
     <label for="num"><b>상품명</b></label>
-    <input type="text" placeholder="상품명을 입력하시오" name="num" required>
-
+    <input class="form-control" type="text" placeholder="상품명을 입력하시오" name="num" required>
+	<br>
     <label for="detail"><b>상품상세</b></label>
-   <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea><br>
+   <textarea class="form-control" rows="8" required></textarea><br>
 
     <label for="img"><b>상품이미지</b></label><br>
-	 <div class="form-group form_file">
-				<input class="form-control form_point_color01" type="text" title="첨부된 파일명" readonly style="width:150px">
-					<span class="file_load">
-				 <input type="file" id="find_file01">
-				 <label class="btn-default" for="find_file01">찾아보기</label>
-			</span>
-			</div>  
+				 <input type="file" required>
+	<br>
 	<p>
 	<label for="sale"><b>판매가</b></label>
-    <input type="text" placeholder="판매가를 입력하시오" name="sale" required>
+    <input type="text" class="form-control" placeholder="판매가를 입력하시오" required>
 	</p>
-
+	<br>
 	<label for="count"><b>재고수량</b></label>
-    <input type="text" placeholder="재고수량을 입력하시오" name="count" required>
-
+    <input type="text" placeholder="재고수량을 입력하시오" class="form-control" required>
+	<br>
 	<!--등록일 참고사이트 :https://www.cssscript.com/flat-style-javascript-date-picker-flatpickr/-->
 				<label for="input"><b>등록일</b></label>
 				<div >
@@ -64,34 +56,25 @@
 
 				</div>
           </div>
-	<label for="min"><b>최소금액수량</b></label>
-    <input type="text" placeholder="금액을 입력하시오" name="min" required>
+	<label><b>최소수량</b></label>
+    <input type="text" class="form-control" placeholder="수량을 입력하시오" required>
 	<!--판매기간-->
-		<div>
-			<div class="col-md-12">
-			<label for="sales">판매기간</label><br>
+	<br>
+			<label>판매기간</label><br>
 			<select class="btn btn-default">
-			<option>7일
-			<option>14일
-			<option>28일
+			<option value="30">30일</option>
+			<option value="60">60일</option>
+			<option value="90">90일</option>
+			<option value="180">180일</option>
+			<option value="365">365일</option>
 			</select>
-<!-- 				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">7일 -->
-<!-- 				 <span class="caret"></span></button> -->
-<!-- 				 <ul class="dropdown-menu"> -->
-<!-- 					 <li><a href="#">14일</a></li> -->
-<!-- 					 <li><a href="#">21일</a></li> -->
-<!-- 					 <li><a href="#">28일</a></li> -->
-<!-- 				 </ul> -->
-			 </div>
 			 
 		<div class="col-md-12" style="text-align:center">
 		<button class="btn btn-default">submit</button>
 		<br>
 		</div>
 		<div class="col-md-12"><br></div>
-		
 
-       </div>
 	   </div>
   </div>
   </div>

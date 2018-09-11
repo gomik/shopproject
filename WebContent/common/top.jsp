@@ -43,6 +43,24 @@ $(function(){
 			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">MYPAGE</a></div>
 			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">출석체크</a></div>
 			<div class="col-md-1"><a href="<%=root%>/help/help.jsp" style="color:black;text-decoration:none;">고객센터</a></div>
+			<div class="modal fade" id="productregister" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="joinregister" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="login" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
 		</div>
 		<div class="row">
 		<br>
@@ -54,7 +72,7 @@ $(function(){
 		<br>
 			<div class="col-md-1"></div>
 			<div class="col-md-1"><h4><a href="<%=root%>/shop/shop.jsp" style="color:black;text-decoration:none;">SHOP</a></h4></div>
-			<div class="col-md-1"><h4><a href="<%=root%>/product/item.jsp" style="color:black;text-decoration:none;">ITEM</a></h4></div>
+			<div class="col-md-1"><h4><a href="<%=root%>/product/product.jsp" style="color:black;text-decoration:none;">ITEM</a></h4></div>
 			<div class="col-md-1"><h4><a href="<%=root%>/product/recommend.jsp" style="color:black;text-decoration:none;">LOOK</a></h4></div>
 <!-- 			드롭다운 메뉴 -->
 			<div class="col-md-1 dropdown">
@@ -177,23 +195,6 @@ $(function(){
 <!-- <!-- 		</div> --> -->
 <!-- <!-- 	</div> --> -->
 
-<div class="modal fade" id="productregister" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="joinregister" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="login" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-    </div>
-  </div>
-</div>
+
 </body>
 </html>
