@@ -7,9 +7,25 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("#productregister").click(function(){
+        $('div#productregister').modal({remote : '../product/productregister.jsp'});
+    })
+})
+$(function(){
+    $("#joinregister").click(function(){
+        $('div#joinregister').modal({remote : '../join/register.jsp'});
+    })
+})
+$(function(){
+    $("#login").click(function(){
+        $('div#login').modal({remote : '../login/login.jsp'});
+    })
+})
+</script>
 </head>
 <body>
 <!-- 상단바 시작 -->
@@ -18,9 +34,12 @@
 		<div class="row">
 		<br>
 			<div class="col-md-5"></div>
-			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">입점신청</a></div>
-			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">LOGIN</a></div>
-			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">JOIN</a></div>
+			<div class="col-md-1">
+			<span id="productregister">입점신청</span></div>
+			<div class="col-md-1">
+			<span id="login">LOGIN</span></div>
+			<div class="col-md-1">
+			<span id="joinregister">JOIN</span></div>
 			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">MYPAGE</a></div>
 			<div class="col-md-1"><a href="#" style="color:black;text-decoration:none;">출석체크</a></div>
 			<div class="col-md-1"><a href="<%=root%>/help/help.jsp" style="color:black;text-decoration:none;">고객센터</a></div>
@@ -35,7 +54,7 @@
 		<br>
 			<div class="col-md-1"></div>
 			<div class="col-md-1"><h4><a href="<%=root%>/shop/shop.jsp" style="color:black;text-decoration:none;">SHOP</a></h4></div>
-			<div class="col-md-1"><h4><a href="#" style="color:black;text-decoration:none;">ITEM</a></h4></div>
+			<div class="col-md-1"><h4><a href="<%=root%>/product/item.jsp" style="color:black;text-decoration:none;">ITEM</a></h4></div>
 			<div class="col-md-1"><h4><a href="<%=root%>/product/recommend.jsp" style="color:black;text-decoration:none;">LOOK</a></h4></div>
 <!-- 			드롭다운 메뉴 -->
 			<div class="col-md-1 dropdown">
@@ -157,5 +176,24 @@
 <!-- <!-- 			<div class="col-md-1">고객센터</div> --> -->
 <!-- <!-- 		</div> --> -->
 <!-- <!-- 	</div> --> -->
+
+<div class="modal fade" id="productregister" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="joinregister" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="login" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    </div>
+  </div>
+</div>
 </body>
 </html>
